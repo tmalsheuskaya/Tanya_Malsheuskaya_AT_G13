@@ -28,3 +28,6 @@ replay_pid*
 /build
 
 /out/
+
+*lesson_1.iml
+*.DS_Store
