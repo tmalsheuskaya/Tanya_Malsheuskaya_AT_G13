@@ -8,7 +8,10 @@ public class Car extends Vehicle implements Transportable, Rideable {
         super(mass, name);
     }
 
-    public void transport() {
+    public int move(int pointA, int pointB) {
+        System.out.printf("I am %s, my name is %s and I am moving from point %d to point %d%n",
+                this.getClass().getSimpleName(), this.getName(), pointA, pointB);
+        return pointB - pointA;
     }
 
     public void ride() {
