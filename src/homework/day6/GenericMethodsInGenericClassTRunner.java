@@ -101,7 +101,7 @@ public class GenericMethodsInGenericClassTRunner {
 
         GenericMethodsInGenericClassT<Moped> mopedObj = new GenericMethodsInGenericClassT<>();
         mopedObj.genericMethodOneGenArg(new Moped(123, "Vespa"));
-        System.out.println(mopedObj.genericMethodTwoGenArgs(new Moped(82, "Minsk"), new  Moped(98, "Motoroller")));
+        System.out.println(mopedObj.genericMethodTwoGenArgs(new Moped(82, "Minsk"), new Moped(98, "Motoroller")));
         mopedObj.genericMethodHalfGenArgs(new Moped(34, "Moped"), "Moped");
 
         GenericMethodsInGenericClassT<Bottle> bottleObj = new GenericMethodsInGenericClassT<>();
