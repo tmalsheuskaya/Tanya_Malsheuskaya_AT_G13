@@ -1,8 +1,12 @@
 package playground.essence.creatures;
 
-public class Beetle extends Insect implements Crawlable {
+import java.io.Serializable;
+
+public class Beetle extends Insect implements Crawlable, Serializable {
+    private static final long serialVersionUID = 1L;
     public Beetle(int mass, String name) {
         super(mass, name);
+
     }
 
     public void nest(Carrot home) {
