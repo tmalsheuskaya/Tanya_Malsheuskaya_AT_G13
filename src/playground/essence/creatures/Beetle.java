@@ -18,6 +18,9 @@ public class Beetle extends Insect implements Crawlable, Serializable {
         }
     }
 
-    public void crawl() {
+    public void crawl(String direction, int distance) {
+        System.out.println("I am " + this.getClass().getSimpleName() + ", my name is " + name
+        + " and I am crawling to " + direction + " for" + distance + " units");
+        System.out.println("vz-vz-vzz-zz...");
     }
 }
