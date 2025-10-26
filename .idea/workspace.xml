@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="01003998-c95b-497c-bc87-1350e0de219d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/day1/44" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/day1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/day11/NewStreamTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/day11/StreamTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/day12/Heavy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/day12/HeavyTwo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/day12/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/day2/lesson2/Aclass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/day2/lesson2/Bclass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/day2/lesson2/Cclass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/day2/lesson2/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/day7/CountTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/day7/NeArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/day7/Sovsemnescanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/day8/ColorsTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/day8/HashTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/day8/MyHashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classwork/day8/SortingTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/basetask/Bee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/basetask/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/basetask/Mouse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/basetask/Obstacle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/basetask/Pineapple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/basetask/Souce.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/basetask/TrainMethodsIf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/basetask/TrainMethodsIfRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/basetask/TrainMethodsObjects.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/basetask/TrainMethodsObjectsRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/basetask/TrainMethodsPrimitive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/basetask/TrainMethodsPrimitiveRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/basetask/TrainMethodsReturn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/basetask/TrainMethodsReturnRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/basetask/TrainMethodsString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/basetask/TrainMethodsStringRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/cycletask/CycleTaskRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/cycletask/ForOdd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/cycletask/MinElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/cycletask/PrintAll.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/cycletask/RandomNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/cycletask/ReverseElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/cycletask/ReverseNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/cycletask/Sort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/cycletask/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/cycletask/While.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/cycletask/X5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/pretask/AnotherVariableExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/pretask/ConditionalExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/pretask/ConditionalLoopExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/pretask/IncrementDecrementExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/pretask/MathOperatorsExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/pretask/MessageExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/pretask/MultiplicationTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/pretask/NumberPrinting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/pretask/SimpleLoopExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/pretask/StringManipulationExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/pretask/SumExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/pretask/VariableAssignment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/pretask/VariableExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day1/pretask/VariableReassignment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day10/Persons.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day11/ButterfliesRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day11/FiguresRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day4/day4homework.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day5/stringtasks/CurrentDatePrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day5/stringtasks/CurrentDatePrinterStatic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day5/stringtasks/DateFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day5/stringtasks/DateFormatterStatic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day5/stringtasks/DigitsExtractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day5/stringtasks/DigitsExtractorStatic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day5/stringtasks/LettersPrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day5/stringtasks/LettersPrinterStatic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day5/stringtasks/LogParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day5/stringtasks/LogParserStatic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day5/stringtasks/StringObjectRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day5/stringtasks/StringStaticRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day5/stringtasks/VowelDateGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day5/stringtasks/VowelDateGeneratorStatic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day5/stringtasks/WordDuplicatesFinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day5/stringtasks/WordDuplicatesFinderStatic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day6/GenericMethodsInGenericClassT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day6/GenericMethodsInGenericClassTRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day6/GenericMethodsInGenericClassTwoParams.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day6/GenericMethodsInGenericClassTwoParamsRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day7/CollectionsTasks/PreparedClasses/Bubble.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day7/CollectionsTasks/PreparedClasses/Chair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day7/CollectionsTasks/PreparedClasses/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day7/CollectionsTasks/PreparedClasses/Sand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day7/CollectionsTasks/PreparedClasses/Water.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day7/CollectionsTasks/Tasks/Birds.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day7/CollectionsTasks/Tasks/Bubbles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day7/CollectionsTasks/Tasks/Butterflies.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day7/CollectionsTasks/Tasks/Cars.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day7/CollectionsTasks/Tasks/ChemElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day7/CollectionsTasks/Tasks/Cities.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day7/CollectionsTasks/Tasks/Countries.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day7/CollectionsTasks/Tasks/Doubles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day7/CollectionsTasks/Tasks/Elements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day7/CollectionsTasks/Tasks/Figures.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day7/CollectionsTasks/Tasks/Furniture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day7/CollectionsTasks/Tasks/Noodles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day7/CollectionsTasks/Tasks/Numbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day7/CollectionsTasks/Tasks/Persons.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day7/CollectionsTasks/Tasks/Sandbox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day7/CollectionsTasks/Tasks/WaterList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day7/ConsoleReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day7/CountAndSave.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day7/CountSymbols.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day7/CreateAndSaveBeetle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day7/FileSaver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day7/ReadAndSaveBeetle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day7/RemoveNoVowels.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day7/RemoveVowels.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day8/CollectionsTasks/BookTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day8/CollectionsTasks/CarTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day8/CollectionsTasks/CityTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day8/CollectionsTasks/FruitTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day8/PreparedClasses/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day8/PreparedClasses/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day8/PreparedClasses/City.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/day8/PreparedClasses/Fruit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/Flyable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/Matter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/craft/Rideable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/craft/Transportable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/craft/air/Aircraft.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/craft/air/Copter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/craft/air/Plane.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/craft/air/Rocket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/craft/field/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/craft/field/Moped.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/craft/field/Motorbike.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/craft/field/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/craft/hand/Bottle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/craft/hand/Can.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/craft/hand/Container.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/craft/hand/Mug.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/craft/hand/Storable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/creatures/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/creatures/Beetle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/creatures/Carrot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/creatures/Chamomile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/creatures/Crawlable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/creatures/Crocodile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/creatures/Flower.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/creatures/Fly.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/creatures/Insect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/creatures/Maylily.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/creatures/Mosquito.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/creatures/Pigeon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/creatures/Plant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/creatures/Potato.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/creatures/Radish.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/creatures/Raven.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/creatures/Rose.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/creatures/Vegetable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/creatures/Vertebrata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/material/Diesel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/material/Petrol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/material/Pourable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/material/Powerable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/essence/material/Water.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/processors/CrawlableProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/processors/FlyableProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/processors/RideableProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/processors/TransportableProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/runners/CrawlableProcessorRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/runners/FlyableProcessorRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/runners/RideableProcessorRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/runners/TransportableProcessorRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/utils/CoordinatesGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/utils/DirectionGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground/utils/DistanceGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/boxing/Bottle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/boxing/Bubble.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/boxing/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/boxing/SparklingWater.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/boxing/Water.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="34c16JwBYowAhyfzkbOIqmtc5Z1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="01003998-c95b-497c-bc87-1350e0de219d" name="Changes" comment="" />
+      <created>1761497870971</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761497870971</updated>
+    </task>
+    <servers />
+  </component>
+</project>
