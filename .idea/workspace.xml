@@ -6,16 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="01003998-c95b-497c-bc87-1350e0de219d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/day11/BirdsRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/day11/ButterfliesRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/day11/CarsRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/day11/CitiesRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/day11/FiguresRunner.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,6 +27,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="34c16JwBYowAhyfzkbOIqmtc5Z1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
