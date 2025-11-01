@@ -1,4 +1,4 @@
-package junit.people;
+package people.junit;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -16,20 +16,35 @@ public class ManualEngineerJUnitTest {
     }
 
     @Test
-    public void testConstructors() {
+    public void testGetAge() {
         assertEquals(28, engineer.getAge());
+    }
+
+    @Test
+    public void testSetAge() {
+        engineer.setAge(31);
+        assertEquals(31, engineer.getAge());
+    }
+
+    @Test
+    public void testGetExperience() {
         assertEquals(3, engineer.getExperience());
+    }
+
+    @Test
+    public void testSetExperience() {
+        engineer.setExperience(5);
+        assertEquals(5, engineer.getExperience());
+    }
+
+    @Test
+    public void testGetSkill() {
         assertEquals(6, engineer.getSkill());
     }
 
     @Test
-    public void testGettersSetters() {
-        engineer.setAge(35);
-        engineer.setExperience(5);
-        engineer.setSkill(10);
-
-        assertEquals(35, engineer.getAge());
-        assertEquals(5, engineer.getExperience());
-        assertEquals(10, engineer.getSkill());
+    public void testSetSkill() {
+        engineer.setSkill(9);
+        assertEquals(9, engineer.getSkill());
     }
 }

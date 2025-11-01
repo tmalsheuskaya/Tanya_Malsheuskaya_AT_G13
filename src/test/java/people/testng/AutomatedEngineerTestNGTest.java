@@ -1,4 +1,4 @@
-package testng.people;
+package people.testng;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -16,20 +16,35 @@ public class AutomatedEngineerTestNGTest {
     }
 
     @Test
-    public void testConstructors() {
+    public void testGetAge() {
         assertEquals(engineer.getAge(), 28);
+    }
+
+    @Test
+    public void testSetAge() {
+        engineer.setAge(30);
+        assertEquals(engineer.getAge(), 30);
+    }
+
+    @Test
+    public void testGetExperience() {
         assertEquals(engineer.getExperience(), 5);
+    }
+
+    @Test
+    public void testSetExperience() {
+        engineer.setExperience(6);
+        assertEquals(engineer.getExperience(), 6);
+    }
+
+    @Test
+    public void testGetSkill() {
         assertEquals(engineer.getSkill(), 15);
     }
 
     @Test
-    public void testGettersSetters() {
-        engineer.setAge(30);
-        engineer.setExperience(6);
+    public void testSetSkill() {
         engineer.setSkill(18);
-
-        assertEquals(engineer.getAge(), 30);
-        assertEquals(engineer.getExperience(), 6);
         assertEquals(engineer.getSkill(), 18);
     }
 }

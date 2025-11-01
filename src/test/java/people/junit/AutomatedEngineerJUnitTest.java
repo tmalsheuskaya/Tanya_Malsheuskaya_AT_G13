@@ -1,8 +1,9 @@
-package junit.people;
+package people.junit;
 
 import org.junit.Before;
 import org.junit.Test;
 import playground.essence.people.AutomatedEngineer;
+
 import static org.junit.Assert.*;
 
 public class AutomatedEngineerJUnitTest {
@@ -15,20 +16,35 @@ public class AutomatedEngineerJUnitTest {
     }
 
     @Test
-    public void testConstructors() {
+    public void testGetAge() {
         assertEquals(30, engineer.getAge());
+    }
+
+    @Test
+    public void testSetAge() {
+        engineer.setAge(35);
+        assertEquals(35, engineer.getAge());
+    }
+
+    @Test
+    public void testGetExperience() {
         assertEquals(6, engineer.getExperience());
+    }
+
+    @Test
+    public void testSetExperience() {
+        engineer.setExperience(5);
+        assertEquals(5, engineer.getExperience());
+    }
+
+    @Test
+    public void testGetSkill() {
         assertEquals(18, engineer.getSkill());
     }
 
     @Test
-    public void testGettersSetters() {
-        engineer.setAge(35);
-        engineer.setExperience(5);
-        engineer.setSkill(15);
-
-        assertEquals(35, engineer.getAge());
-        assertEquals(5, engineer.getExperience());
-        assertEquals(15, engineer.getSkill());
+    public void testSetSkill() {
+        engineer.setSkill(9);
+        assertEquals(9, engineer.getSkill());
     }
 }
