@@ -31,3 +31,5 @@ replay_pid*
 
 *lesson_1.iml
 *.DS_Store
+
+/test-output
