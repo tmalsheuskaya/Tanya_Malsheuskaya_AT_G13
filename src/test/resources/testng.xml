@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EngineerTestSuite" verbose="1">
+    <test name="EngineerTests">
+        <classes>
+            <class name="people.testng.AutomatedEngineerTestNGTest"/>
+            <class name="people.testng.ManualEngineerTestNGTest"/>
+            <class name="people.testng.ParameterizedEngineersTestNG"/>
+        </classes>
+    </test>
+</suite>
