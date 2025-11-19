@@ -3,10 +3,7 @@ package hometaskday16;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -54,16 +51,32 @@ public class BookingTooltipsTest {
             System.out.println("no cookies or not clickable");
         }
 
-        WebElement currencyTooltip = driver.findElement(By.cssSelector("button[data-testid='header-currency-picker-trigger']"));
-        actions.moveToElement(currencyTooltip).perform();
+        WebElement currencyButton = driver.findElement(By.cssSelector("button[data-testid='header-currency-picker-trigger']"));
+        actions.moveToElement(currencyButton).perform();
 
-        String currencyTooltipValue = currencyTooltip.getAttribute("aria-label");
-        System.out.println("currency tooltip: " + currencyTooltipValue);
+        WebElement currencyTooltip = driver.findElement(By.xpath("//body/div[last()]/div"));
 
-        WebElement languageTooltip = driver.findElement(By.cssSelector("button[data-testid='header-language-picker-trigger']"));
-        actions.moveToElement(languageTooltip).perform();
+        currencyButton = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("button[data-testid='header-currency-picker-trigger']")));
+        new Actions(driver).moveToElement(currencyButton).perform();
 
-        String languageTooltipValue = languageTooltip.getAttribute("aria-label");
+        By currencyTooltipLocator = By.xpath("//body/div[last()]/div");
+        currencyTooltip = wait.until(ExpectedConditions.visibilityOfElementLocated(currencyTooltipLocator));
+
+        String currencyTooltipValue = currencyTooltip.getText();
+        System.out.println("Currency tooltip: " + currencyTooltipValue);
+
+        WebElement languageButton = driver.findElement(By.cssSelector("button[data-testid='header-language-picker-trigger']"));
+        actions.moveToElement(languageButton).perform();
+
+        WebElement languageTooltip = driver.findElement(By.xpath("//body/div[last()]"));
+
+        languageButton = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("button[data-testid='header-language-picker-trigger']")));
+        new Actions(driver).moveToElement(languageButton).perform();
+
+        By languageTooltipLocator = By.xpath("//body/div[last()]");
+        languageTooltip = wait.until(ExpectedConditions.visibilityOfElementLocated(languageTooltipLocator));
+
+        String languageTooltipValue = languageTooltip.getText();
         System.out.println("language tooltip: " + languageTooltipValue);
     }
 

@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="01003998-c95b-497c-bc87-1350e0de219d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hometaskday16/BookingTooltipsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hometaskday16/BookingTooltipsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/people/junit/JUnitRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/people/junit/JUnitRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,12 +46,13 @@
     "Application.WeatherTest.executor": "Run",
     "JUnit.BookingFirstTest.executor": "Run",
     "JUnit.BookingPragueTest.executor": "Run",
+    "JUnit.BookingTooltipsTest.executor": "Run",
     "JUnit.JUnitRunner.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "homework__day16__part2",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",

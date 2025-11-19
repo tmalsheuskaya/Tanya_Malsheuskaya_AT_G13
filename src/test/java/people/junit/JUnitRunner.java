@@ -11,8 +11,8 @@ import org.junit.runners.Suite;
         //BookingLondonTest.class
         //W3schoolsTest.class
         //DropdownsTest.class
-        //BookingTooltipsTest.class
-        BookingPragueTest.class
+        BookingTooltipsTest.class
+        //BookingPragueTest.class
 })
 
 public class JUnitRunner {
