@@ -57,7 +57,7 @@ public class BookingTooltipsTest {
         WebElement currencyTooltip = driver.findElement(By.xpath("//body/div[last()]/div"));
 
         currencyButton = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("button[data-testid='header-currency-picker-trigger']")));
-        new Actions(driver).moveToElement(currencyButton).perform();
+        actions.moveToElement(currencyButton).perform();
 
         By currencyTooltipLocator = By.xpath("//body/div[last()]/div");
         currencyTooltip = wait.until(ExpectedConditions.visibilityOfElementLocated(currencyTooltipLocator));
@@ -71,7 +71,7 @@ public class BookingTooltipsTest {
         WebElement languageTooltip = driver.findElement(By.xpath("//body/div[last()]"));
 
         languageButton = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("button[data-testid='header-language-picker-trigger']")));
-        new Actions(driver).moveToElement(languageButton).perform();
+        actions.moveToElement(languageButton).perform();
 
         By languageTooltipLocator = By.xpath("//body/div[last()]");
         languageTooltip = wait.until(ExpectedConditions.visibilityOfElementLocated(languageTooltipLocator));
