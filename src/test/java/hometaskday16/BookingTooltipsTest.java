@@ -12,6 +12,9 @@ import org.openqa.selenium.interactions.Actions;
 
 import java.time.Duration;
 
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+
 public class BookingTooltipsTest {
 
     private WebDriver driver;
@@ -51,33 +54,34 @@ public class BookingTooltipsTest {
             System.out.println("no cookies or not clickable");
         }
 
-        WebElement currencyButton = driver.findElement(By.cssSelector("button[data-testid='header-currency-picker-trigger']"));
-        actions.moveToElement(currencyButton).perform();
-
-        WebElement currencyTooltip = driver.findElement(By.xpath("//body/div[last()]/div"));
-
-        currencyButton = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("button[data-testid='header-currency-picker-trigger']")));
+        WebElement currencyButton = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.cssSelector("button[data-testid='header-currency-picker-trigger']"))
+        );
         actions.moveToElement(currencyButton).perform();
 
         By currencyTooltipLocator = By.xpath("//body/div[last()]/div");
-        currencyTooltip = wait.until(ExpectedConditions.visibilityOfElementLocated(currencyTooltipLocator));
+        WebElement currencyTooltip = wait.until(ExpectedConditions.visibilityOfElementLocated(currencyTooltipLocator));
 
         String currencyTooltipValue = currencyTooltip.getText();
         System.out.println("Currency tooltip: " + currencyTooltipValue);
 
-        WebElement languageButton = driver.findElement(By.cssSelector("button[data-testid='header-language-picker-trigger']"));
-        actions.moveToElement(languageButton).perform();
+        assertNotNull("Currency tooltip is null", currencyTooltipValue);
+        assertFalse("Currency tooltip is empty", currencyTooltipValue.trim().isEmpty());
 
-        WebElement languageTooltip = driver.findElement(By.xpath("//body/div[last()]"));
 
-        languageButton = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("button[data-testid='header-language-picker-trigger']")));
+        WebElement languageButton = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.cssSelector("button[data-testid='header-language-picker-trigger']"))
+        );
         actions.moveToElement(languageButton).perform();
 
         By languageTooltipLocator = By.xpath("//body/div[last()]");
-        languageTooltip = wait.until(ExpectedConditions.visibilityOfElementLocated(languageTooltipLocator));
+        WebElement languageTooltip = wait.until(ExpectedConditions.visibilityOfElementLocated(languageTooltipLocator));
 
         String languageTooltipValue = languageTooltip.getText();
         System.out.println("language tooltip: " + languageTooltipValue);
+
+        assertNotNull("Language tooltip is null", languageTooltipValue);
+        assertFalse("Language tooltip is empty", languageTooltipValue.trim().isEmpty());
     }
 
 
