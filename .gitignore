@@ -24,7 +24,7 @@
 hs_err_pid*
 replay_pid*
 
-/target
+/target/
 /build
 
 /out/
@@ -32,4 +32,4 @@ replay_pid*
 *lesson_1.iml
 *.DS_Store
 
-/test-output
+/test-output/
